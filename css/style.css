@@ -337,6 +337,7 @@ footer {
 -----------------------------------------*/
 #speakers {
     background: #f9f9f9;
+    justify-content: center;
 }
 
 #speakers h3 {
@@ -571,6 +572,24 @@ footer {
     background-position: center center;
 }
 
+.titlefinal{
+  color: #f11212;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  background-color: #1010106b;
+}
+
+.pfinal{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  background-color: #1010106b;
+}
+
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
@@ -584,7 +603,7 @@ footer {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #928d8d;
   border-radius: 0px;
   box-shadow: none;
   margin-bottom: 16px;
