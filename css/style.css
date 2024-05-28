@@ -48,11 +48,16 @@ p {
     color: #707070;
     font-size: 14px;
     line-height: 24px;
+    text-align: justify;
 }
 
 a {
   text-decoration: none !important;
   outline: none;
+}
+
+.copy {
+  text-align: center;
 }
 
 
@@ -199,24 +204,28 @@ footer {
 
 .custom-navbar .navbar-brand {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 3rem;
     line-height: 40px;
 }
 
 .custom-navbar .nav li a {
-    color: #ddd;
-    font-size: 12px;
-    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     line-height: 40px;
     transition: all 0.4s ease-in-out;
 }
 
+.menuwhite{
+    color: #ffffff !important;
+  }
+
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #ffff00;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -226,7 +235,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #e0c308;
 }
 
 .custom-navbar .navbar-toggle {
@@ -243,6 +252,10 @@ footer {
     border-color: transparent;
 }
 
+.special-menu-item a{
+  color: rgb(219, 21, 21) !important; 
+}
+
 @media(min-width:768px) {
     .custom-navbar {
         padding: 20px 0;
@@ -250,7 +263,7 @@ footer {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #101010;
+        background: #000000;
         padding: 0;
     }
 
